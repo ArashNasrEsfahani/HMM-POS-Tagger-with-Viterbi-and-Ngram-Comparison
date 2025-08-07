@@ -44,8 +44,8 @@ The best model (Unigram) was then used to tag the final `test_notags.txt` file.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
-    cd <repository-name>
+    git clone https://github.com/ArashNasrEsfahani/HMM-POS-Tagger-with-Viterbi-and-Ngram-Comparison
+    cd HMM-POS-Tagger-with-Viterbi-and-Ngram-Comparison
     ```
 
 2.  **Create a virtual environment and install dependencies:**
