@@ -55,11 +55,8 @@ The best model (Unigram) was then used to tag the final `test_notags.txt` file.
     pip install -r requirements.txt
     ```
 
-3.  **Run the Python script or Jupyter Notebook:**
-    ```bash
-    # (Instructions for running your specific file)
-    python main.py
-    ```
+3.  **Run the Jupyter Notebook:**
+
 
 ## 🛠️ Technologies Used
 
