@@ -1,20 +1,3 @@
-Of course. Here is the complete project setup for your Part-of-Speech (POS) Tagging homework.
-
-Project Summary & Name
-
-Suggested Detailed Name:
-HMM-POS-Tagger-with-Viterbi-and-Ngram-Comparison
-
-One-Line Summary:
-A project implementing and comparing Unigram, Bigram, and Trigram Hidden Markov Models for Part-of-Speech tagging using the Viterbi algorithm.
-
-README.md
-code
-Markdown
-download
-content_copy
-expand_less
-
 # 🏷️ Part-of-Speech Tagging with N-Gram Markov Models
 
 This project implements a robust Part-of-Speech (POS) tagger from scratch using a Hidden Markov Model (HMM) framework. It explores and compares three n-gram models (Unigram, Bigram, and Trigram) to assign the most probable sequence of POS tags to a sentence, with decoding performed by the Viterbi algorithm.
@@ -85,39 +68,6 @@ The best model (Unigram) was then used to tag the final `test_notags.txt` file.
 -   NumPy (for potential numerical operations)
 -   NLTK (optional, for tokenization or comparison)
 -   Jupyter Notebook (for demonstration)
-requirements.txt
-
-The report emphasizes standard libraries, but a typical project setup would include these for utility.
-
-code
-Code
-download
-content_copy
-expand_less
-IGNORE_WHEN_COPYING_START
-IGNORE_WHEN_COPYING_END
-numpy
-nltk
-tqdm
-Git Commands to Create and Upload
-
-These commands assume you have the GitHub CLI (gh) installed and authenticated.
-
-code
-Bash
-download
-content_copy
-expand_less
-IGNORE_WHEN_COPYING_START
-IGNORE_WHEN_COPYING_END
-# Navigate to your project directory
-cd path/to/your/pos-tagging-project
-
-# 1. Initialize a local Git repository
-git init -b main
-
-# 2. Add all your project files (script, README.md, requirements.txt, etc.)
-git add .
 
 # 3. Make your first commit
 git commit -m "Initial commit: HMM Part-of-Speech Tagger project"
